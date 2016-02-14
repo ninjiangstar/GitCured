@@ -2,7 +2,7 @@ var mongoose = require('mongoose');
 var fs = require('fs');
 //connect to the database
 //remember to change the database name
-mongoose.connect('mongodb://localhost/treehacks-health');
+mongoose.connect('mongodb://treehacks:stanford@ds042138.mongolab.com:42138/MongoLab-x');
 
 //loads all of the model files
 var models_path = __dirname + '/../server/models'
